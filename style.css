@@ -90,7 +90,7 @@ pre {
 
 /* Showcase */
 .showcase {
-  height: 400px;
+  height: 500px;
   background-image: url("/images/bg1.jpg");
   background-size: cover;
   /* background-color: var(--primary-color); */
@@ -148,15 +148,15 @@ pre {
 .showcase::after {
   content: "";
   position: absolute;
-  height: 100px;
-  bottom: -70px;
+  /* height: 100px; */
+  /* bottom: -70px; */
   right: 0;
   left: 0;
   background: #fff;
-  transform: skewY(-3deg);
+  /* transform: skewY(-3deg);
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg); */
 }
 
 /* stats */
